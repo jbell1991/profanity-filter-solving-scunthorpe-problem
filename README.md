@@ -7,9 +7,9 @@ Kids will be kids and from time to time inappropriate language might seep into t
 Another problem with flagging profanity is that some words contain bad words within in them.  For example, the word “hell” is in “shell” and while hell would be deemed inappropriate for elementary students using the app, shell would not.  The problem is well-documented and is called the [Scunthorpe Problem](https://en.wikipedia.org/wiki/Scunthorpe_problem#:~:text=The%20Scunthorpe%20problem%20is%20the,obscene%20or%20otherwise%20unacceptable%20meaning.).  Scunthorpe is a town in England that contains a profane word.  A human would not make the mistake, but you could see how a computer might censor users from the town trying to set up an account on the web.  
 
 # Options
-One option explored was using python packages to find profanity.  Profanity-filter worked well on most words, but it still missed some individual words, missed phrases and did well to avoid flagging Scunthorpe like words.  
+One option explored was using python packages to find profanity.  [Profanity-filter](https://github.com/rominf/profanity-filter) worked well on most words, but it still missed some individual words, missed phrases and did well to avoid flagging Scunthorpe like words.  
 
-Another option was a package called profanity-check, which uses machine learning and not an explicit list of words to censor.  However, profanity-check failed to catch certain phrases.
+Another option was a package called [profanity-check](https://github.com/vzhou842/profanity-check), which uses machine learning and not an explicit list of words to censor.  However, profanity-check failed to catch certain phrases.
 
 The Story Squad stakeholder had a preference for flexibility in changing the list as slang changes.  Also, there are words that are inappropriate for elementary children that would not be considered inappropriate for adults.  These require a custom list of words.  
 
