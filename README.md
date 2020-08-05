@@ -26,4 +26,4 @@ In the second iteration of the filter, the Scunthorpe Problem was solved by only
 # What can be improved?
 In future iterations perhaps the filter could be used to flag if a child may be divulging personal information.  For example, a student writes a story and gives the name of their school or their address.  Words like school, elementary, middle, street, road, avenue etc. could be flagged for moderator review.  Again, the flexibility of using a custom list of words over machine learning is to flag items that aren’t necessarily offensive, but could still be harmful to children using the app.  
 
-If the Google Cloud Vision API misreads any curse words, the filter will miss them as well. The filter is only as good as the API is at reading poor quality handwriting, which for kids is somewhat common. Nevertheless , the Google Cloud Vision API is pretty good at reading handwriting.
+If the Google Cloud Vision API misreads any curse words, the filter will miss them as well. The filter is only as good as the API is at reading poor quality handwriting, which for kids is somewhat common. Nevertheless, the Google Cloud Vision API is pretty good at reading handwriting.
